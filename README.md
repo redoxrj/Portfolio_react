@@ -6,7 +6,7 @@ Hi! My name is **Rajnish Kumar**, I have made this modern and fully responsive P
 
 🔗 live-link : https://my-portfolio-react-qxyzgddg6-rajnish-kumars-projects-5f8487f8.vercel.app/<br>
 # Preview
-![Screenshot (101)](https://github.com/redoxrj/Portfolio_react/assets/140983045/a5ffc73c-6c98-4f4e-b0b2-b743a8398681)
+
 ![Screenshot (99)](https://github.com/redoxrj/Portfolio_react/assets/140983045/98552600-1217-4835-b50a-fb64ac9c8723)
 ![Screenshot (100)](https://github.com/redoxrj/Portfolio_react/assets/140983045/f5c935f9-42b5-40c4-87a8-723cba6d8e49)
 
