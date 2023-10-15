@@ -1,0 +1,72 @@
+@import './statics.scss';
+@import './animations.scss';
+
+#contact{
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    >section{
+    height: 100%;
+    width: 100%;
+    >form{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        >h2{
+            text-align: center;
+            font: 400 2.7rem $text2;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin: 2rem;
+        }
+        >input,>button{
+            padding: 0.8rem;
+            width: 60%;
+            outline: none;
+            font : 400 0.9rem $text1;
+            margin: 1rem;
+            border: none;
+            
+        }
+        >button{
+            cursor: pointer;
+            background-color: $color3;
+            color: $color4;
+            font: 500 1rem $text1;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin: 3rem;
+
+            &:hover{
+                background-color: $color3_1;
+            }
+        }
+    }
+        
+    }
+    >aside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color5;
+        >img{
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+            filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.322));
+            // filter: hue-rotate(150deg);
+            animation: moreupdown 0.7s infinite ease-in-out alternate;
+        
+        
+            }
+        
+    }
+}

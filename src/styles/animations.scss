@@ -1,0 +1,16 @@
+@keyframes animateSvg{
+    to{
+        transform: translate(-50%,-10px); // coz humney pehly hi -50% trasnform de rkhi (trasnlateX) starting ke liye hi position centering
+
+    }
+}
+@keyframes upanddown{
+    to{
+        transform: translateY(-5px); 
+    }
+}
+@keyframes moreupdown{
+    to{
+        transform: translateY(-15px); 
+    }
+}

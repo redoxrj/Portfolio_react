@@ -1,0 +1,455 @@
+@import './statics.scss';
+
+
+  @media screen and (max-width: 1214px) {
+    #home{
+        >section{
+            max-width: 50%;
+            &:first-of-type{
+            }
+        }
+
+        // img{
+        //     justify-content: flex-start;
+        //     align-items: center;
+        //     // display: none;
+
+        // }
+        // section{
+        //     &:last-of-type{
+        //         display: none;
+        //     }
+        // }
+        
+      
+    }
+    // #services{
+    //     width: 100%;
+    //     background-color: red;
+    // }
+    #testimonials{
+    padding: 0;
+    padding-bottom: 2rem;
+    >section{
+        padding: 4rem;
+        // margin-bottom: 4rem;
+        height: 34rem;
+        // padding-top: 1rem;
+        >article{
+        }
+    }
+
+
+    }
+    #contact{
+        // margin-top: 4rem;
+    }
+
+  }
+  @media screen and (max-width: 1140px) {
+    #projects{
+        >section{
+            
+      
+        >article{
+            width: 100%;
+            // height: 100%;
+            
+        }
+            
+        }
+        .projectItem{
+            align-self: center;
+
+            padding: 0;
+            // margin: 0;
+            // width: 150%;
+            // height: 120%;
+        }
+    }
+    #timeline{
+        .timelineBox{
+            width: 90%;
+
+        }
+
+    }
+
+  }
+  @media screen and (max-width: 1024px) {
+    nav{
+        padding: 0 $p_sm;
+        // font-size: 1rem;
+        >div{
+            gap: 1rem;
+        }
+        >h2{
+            font-size: 1.4rem;
+        }
+    }
+    #home{
+        h1{
+            font-size: 2.6rem !important;
+        }
+        .typewriterpara{
+            font-size: 1.2rem !important;
+        }
+        .typewritercursor{
+            font-size: 1.5rem !important;
+        }
+        .links{
+            width: 100% !important;
+            gap: 1.5rem !important;
+            >a{
+                font: 500 1.1rem $text2 !important;
+
+            }
+            
+            
+        }
+        .special{
+            >p{
+                font-size: 1.3rem !important;
+            }
+            >span{
+                font-size: 1.3rem !important;
+
+
+            }
+        }
+        aside{
+            width: 100% !important;
+            flex-direction: column;
+            p{
+                font-size: 1.5rem !important;
+
+            }
+            span{
+                font-size: 1.3rem !important;
+
+
+            }
+        }
+        article[data-special]{
+            
+        }
+    }
+    #timeline{
+        .timelineBox{
+            width: 100%;
+
+        }
+
+    }
+    #services{
+        span{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    #testimonials {
+        padding: $p_zero;
+        padding-bottom: 2rem;
+
+        > h2 {
+          padding: 3rem;
+          margin-bottom: 0%;
+        }
+        > section {
+          padding: 3rem;
+          height: 45rem;
+          justify-content: space-evenly;
+          h4{
+            margin-top: 3rem;
+          }
+        
+    
+          > article {
+            width: 40%;
+            height: 50%;
+          }
+        }
+      }
+      #projects {
+        padding: 8rem $p_zero;
+        > section {
+          > article {
+            height: 25rem;
+          }
+          .workItem {
+            height: 25rem;
+          }
+        }
+      }
+   
+
+  }
+  @media screen and (max-width: 819px) {
+    nav{
+        >div,>a{
+            display: none;
+        }
+        
+    }
+    .navBtn{
+        display: block;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        >aside{
+
+            >img{
+            width: 50%;
+            }
+        }
+    }
+
+
+  }
+  @media screen and (max-width: 740px) {
+    .projectItem{
+        padding: 2rem !important;
+    }
+    #testimonials{
+        > section {
+           
+            h4{
+              margin-top: 5rem;
+            }
+          
+      
+           
+          }
+
+    }
+    footer {
+        padding-left: $p_zero;
+        grid-template-columns: 1fr;
+        > div {
+          width: 100%;
+          border: none;
+          p {
+            width: 100%;
+            margin: 2rem auto;
+          }
+        }
+        > a {
+          margin: 1rem;
+        }
+      }
+
+
+  }
+
+  @media screen and (max-width: 690px) {
+    #home{
+        .links{
+            gap: 0.5rem !important;
+
+            >a{
+   
+   
+           }
+        }
+    }
+    .projectItem{
+        padding: 3rem !important;
+        .link2 {
+            gap: 0.5rem !important;
+        }
+        
+    }
+    #testimonials >section{
+        height: unset;
+        gap: 3rem;
+        >article{
+            width: 100%;
+            height: 50vh;
+        }
+        h4{
+            margin-top: 1rem;
+        }
+
+        
+    }
+
+  }
+  @media screen and (max-width: 656px) {
+    #home{
+        flex-direction: column-reverse;
+        height: unset;
+        >section{
+            width: 100% !important;
+            max-width: unset;
+            &:first-of-type{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                >div{
+                   
+                    padding-top: 0;
+                }
+            }
+            .special{
+                display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    text-align: center;
+            }
+            .special2{
+                display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+            }
+            .Typewriter{
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+            }
+        }
+        
+        article[data-special]{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        .links{
+            gap: 3rem !important;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        >svg{
+           font-size: 3rem;
+           bottom: 0%;
+        }
+    }
+    #projects {
+        // padding: 1rem 0;
+        button{
+            padding: 0.3rem 0.5rem !important;
+            font-size: 0.9rem !important;
+        }
+        h3{
+            font-size: 1.5rem !important;
+        }
+        .projectItem >aside>p{
+            font-size: 0.7rem !important;
+            letter-spacing: 1px !important;
+        }
+    }
+    #timeline{
+        .timelineBox{
+            width: 100%;
+            h2{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 0.85rem;
+            }
+            .timelineItem>div{
+                padding: 20px 6px !important;
+            }
+           
+        
+
+        }
+        
+    }
+    #services{
+        >section{
+            margin: 3rem 0;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+            .serviceBox1{
+                grid-column: 1/3;
+                grid-row: unset;
+            }
+            .serviceBox4{
+                grid-column: 1/3;
+            }
+        }
+    }
+   
+
+  }
+
+  @media screen and (max-width: 470px) {
+    #nav{
+        width: 100% !important;
+    }
+    #home{
+        article[data-special]{
+            // display: none;
+            width: 20rem;
+            text-align: start;
+            margin-bottom: 2rem;
+            align-self: self-end;
+            p{
+
+                font-size: 1.3rem !important;
+            }
+        }
+        max-width: 100% !important;
+        .links{
+            display: flex;
+            flex-direction: column;
+            width: 80% !important;
+            justify-content: space-evenly;
+           
+        //    a{
+        //         padding: 0;
+        //     }
+            // margin: auto !important;
+        }
+        // section{
+        //     max-width: 80% !important;
+        // }
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:first-of-type >div{
+                // background-color: red;
+                max-width: 100% !important;
+                // display: none;
+                padding: 0;
+                border-top: 5px solid yellow;
+                padding-left: 0 !important;
+            }
+        }
+        body{
+            max-width: 100%;
+        }
+
+    }
+    #projects {
+        padding: 3rem 0;
+        button{
+            padding: 0.3rem 0.3rem !important;
+            font-size: 0.7rem !important;
+        }
+    }
+   #services >section{
+    display: flex;
+    flex-direction: column;
+   }
+   
+  }
+  
+
+
+

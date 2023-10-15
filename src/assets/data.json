@@ -1,0 +1,52 @@
+{
+    "projects": [
+      {
+        "date": "24/09/2023",
+        "title": "ECOMMERCE MERN APP",
+        "description": "RedoxCart is a MERN Ecommerce app made by me using ReactJs,ExpressJs,Redux,Nodejs and MongoDb and it is fully functional.",
+        "url": "https://redoxcart-mern-app.onrender.com/",
+        "github": "https://github.com/redoxrj/MERNprojectRedoxCart_raw",
+        "imgSrc": "https://res.cloudinary.com/dxveabdbw/image/upload/v1697403997/projects%20ss/trewflow47vhmsppunqy.png"
+      },
+      
+  
+      {
+        "date": "1/10/2023",
+        "title": "REAL-TIME CHAT APP",
+        "description": "This real time chat app  made using react,firebase and chakraUI .Here you can chat in real time.",
+        "url": "https://651c1403a95bb5253268e326--superb-otter-524c7d.netlify.app/",
+        "github": "https://github.com/redoxrj/real_time_chat_app",
+
+        "imgSrc": "https://res.cloudinary.com/dxveabdbw/image/upload/v1697404206/projects%20ss/bbq7hklhojgwlrcca7ck.png"
+      },
+      {
+        "date": "5/10/2023",
+        "title": "CryptoX",
+        "description": "This modern and fully responsive crypto react app made using Reactjs and ChakraUI.Here you can find all cryptocurrencies and exchanges available and also the real-time price information and chart.",
+        "url": "https://react-crypto-app-pi.vercel.app",
+        "github": "https://github.com/redoxrj/React-crypto-app",
+
+        "imgSrc": "https://res.cloudinary.com/dxveabdbw/image/upload/v1697404206/projects%20ss/ofmdyxewn09iwfbajwlv.png"
+      },
+  
+      {
+        "date": "10/10/2023",
+        "title": "VIDEOS HUB",
+        "description": "This fully responsive and stylish Videos-hub-React-app made by using reactjs and CharkaUI with dark mode enabled. 🌙",
+        "url": "https://react-video-bjhitsxhr-rajnish-kumars-projects-5f8487f8.vercel.app/",
+        "github": "https://github.com/redoxrj/Videos-hub-React-app",
+
+        "imgSrc": "https://res.cloudinary.com/dxveabdbw/image/upload/v1697404207/projects%20ss/nngf7kbdvqnqpuxi2vn7.png"
+      },
+      {
+        "date": "16/10/2023",
+        "title": "PORTFOLIO",
+        "description": "My Portfolio made fully responsive and animated made using ReactJs, SCSS and firebase .In this portfolio, I've showcased some of my latest projects, highlighting my skills in web development and design.",
+        "url": "/",
+        "github": "https://reactone-nine.vercel.app",
+
+        "imgSrc": "https://res.cloudinary.com/dxveabdbw/image/upload/v1697404206/projects%20ss/xtobwhiar2pc7xlhjcvn.png"
+      }
+      
+    ]
+  }

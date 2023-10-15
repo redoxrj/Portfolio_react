@@ -1,0 +1,159 @@
+@import './statics.scss';
+@import './animations.scss';
+
+#home{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    >section{
+        width: 100%;
+        &:first-of-type{
+
+
+            padding-left: $p;
+            width: 120%;
+
+            >div{
+                border-top: 1px solid $color6_2;
+                height: 100%;
+                padding-top: 3rem;
+                
+                >h1{
+                    font: 900 3.5rem $text1;
+                    margin-top: 1rem;
+                }
+                .typewriterpara{
+                    letter-spacing: 2px;
+                    font-size: 1.7rem;
+                    font-family: $text1;
+                }
+                .typewritercursor{
+                    font-size: 2rem;
+
+                }
+                >.links{
+                    display: flex;
+                    width: 70%;
+                    margin: 2.5rem 0;
+                    gap: 2rem;
+                    // border: 2px solid red;
+
+                    >a{
+                        &:first-of-type{
+                            background-color: $color3;
+                            color: $color1;
+                            padding: 0.6rem 1.7rem;
+                            font: 500 1.2rem $text2;
+                            border-radius: 10px;
+
+                            transition: all 0.5s;
+                            &:hover{
+                                background-color: $color3_1;
+                            }
+                            
+                        }
+                        &:last-of-type{
+                            background-color: $color3;
+                            color: $color6;
+                            padding: 0.6rem 1.7rem;
+                            font: 900 1.2rem $text2;
+                            transition: all 0.5s;
+                            display: flex;
+                            align-items: center;
+                            border-radius: 10px;
+
+
+                            &:hover{
+                                background-color: $color3_1;
+                            }
+
+
+                        }
+                    }
+                }
+                aside{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 90%;
+                }
+                article{
+
+                    color: $color6;
+                    margin: 1.5rem 0;
+                    width: 15rem;
+                    position: relative;
+
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        background-color: $color4;
+                        height: 5rem;
+                        width: 70%;
+                        border-radius: 50px;
+                        z-index: -1;
+                        top: 20%;
+                        left: 15%;
+                    }
+                    >p{
+                        font: 900 2rem $text1;
+                        color: $color5;
+                    }
+                    >span{
+                        font: 500 1rem $text2;
+                    }
+                }
+                article[data-special]{
+                    width: 25rem;
+                }
+
+
+            }
+
+           
+
+        }
+        &:last-of-type{
+            border-top: 1px solid $color6_2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            overflow-x: hidden;
+
+
+            &::after{
+                content: '';
+                width: 40vmax;
+                height: 40vmax;
+                position: absolute;
+                background-color: $color3;
+                border-radius: 50%;
+                z-index: -1;
+            }
+            > img{
+                height: 40vmax;
+                width: 40vmax;
+                object-fit: contain;
+
+
+                // filter: grayscale(100%);
+                
+                
+            }
+        }
+    }
+
+    >svg{
+        font-size: 4rem;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        color: $color5;
+        transform: translateX(-50%);
+        animation: animateSvg 0.4s linear infinite alternate;
+    }
+   
+
+   
+
+}
